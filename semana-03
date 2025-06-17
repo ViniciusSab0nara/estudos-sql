@@ -1,0 +1,21 @@
+semana-03/resumo.md
+
+# Resumo da Semana 03 – Subconsultas, Comparações e DISTINCT
+
+## ✅ Tópicos estudados:
+- Subconsultas simples e correlacionadas
+- Comparações com AVG e MAX dentro do WHERE
+- DISTINCT
+- COUNT(DISTINCT ...)
+
+## 🧪 O que pratiquei:
+- Encontrar alunos com idade menor que a média geral
+- Encontrar alunos com idade máxima dentro da própria cidade
+- Contar cidades únicas
+- Listar combinações únicas de cidade e idade
+
+## 💡 Observações pessoais:
+- Subconsulta correlacionada roda linha a linha e compara com base no valor da linha atual
+- `b.cidade = a.cidade` foi um divisor de águas na lógica
+- `DISTINCT` funciona para uma ou várias colunas (como chave composta)
+- `COUNT(DISTINCT cidade)` retorna o número de cidades diferentes
