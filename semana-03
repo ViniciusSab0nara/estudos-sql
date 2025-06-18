@@ -1,21 +1,21 @@
 semana-03/resumo.md
 
-# Resumo da Semana 03 – Subconsultas, Comparações e DISTINCT
+# Resumo da Semana 03 – Subconsultas, Comparações e DISTINCT (Avanço em SQL Corporativo)
 
 ## ✅ Tópicos estudados:
-- Subconsultas simples e correlacionadas
-- Comparações com AVG e MAX dentro do WHERE
-- DISTINCT
-- COUNT(DISTINCT ...)
+- WHERE com operadores lógicos (`AND`, `OR`, `NOT`)
+- ORDER BY e LIMIT em consultas combinadas
+- Aplicação de filtros e ordenação em cenários do mundo real (RH, vendas, pedidos)
+- Consultas com múltiplas condições e ordenação avançada
+- GROUP BY e HAVING para análise de agrupamentos e exceções
+- Funções agregadas em contextos de BI (SUM, COUNT)
+- Introdução e prática de JOIN entre tabelas (INNER JOIN)
+- Boas práticas com prefixos de tabela em SELECT/JOINS
 
 ## 🧪 O que pratiquei:
-- Encontrar alunos com idade menor que a média geral
-- Encontrar alunos com idade máxima dentro da própria cidade
-- Contar cidades únicas
-- Listar combinações únicas de cidade e idade
+- Filtrar registros com várias condições em tabelas corporativas (funcionários, vendas, pedidos)
+- Selecionar os registros “top N” com ORDER BY + LIMIT
+- Agrupar dados e aplicar filtros após o agrupamento usando HAVING
+- Unir informações entre tabelas (JOIN) para relatórios completos
 
-## 💡 Observações pessoais:
-- Subconsulta correlacionada roda linha a linha e compara com base no valor da linha atual
-- `b.cidade = a.cidade` foi um divisor de águas na lógica
-- `DISTINCT` funciona para uma ou várias colunas (como chave composta)
-- `COUNT(DISTINCT cidade)` retorna o número de cidades diferentes
+
