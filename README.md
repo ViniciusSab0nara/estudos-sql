@@ -21,6 +21,7 @@ Este repositório acompanha minha jornada de aprendizado em SQL, com foco em me 
 - [x] GitHub
 - [x] MySQL 
 - [x] VS Code 
+- [x] Postgres 
 
 ---
 
