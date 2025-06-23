@@ -1,0 +1,19 @@
+semana-04/resumo.md
+
+# Resumo da Semana 04 – JOINs Avançados, CASE e Organização de Bancos (SQL Realista)
+
+## ✅ Tópicos estudados:
+
+- **Prática e domínio dos principais tipos de JOIN:** INNER JOIN, LEFT JOIN, RIGHT JOIN e FULL JOIN (compreendendo quando e por que usar cada um)
+- Uso do LEFT JOIN para trazer dados nulos e identificar “órfãos” (clientes sem pedidos, pedidos sem clientes)
+- Aplicação de funções de agregação após JOIN (COUNT, SUM) para análises e relatórios
+- Implementação do CASE WHEN para classificação dinâmica de resultados (ex: clientes ativos/inativos)
+- Ordenação avançada com `ORDER BY` e manipulação de `NULLS FIRST/LAST`
+- Boas práticas para estruturação de scripts e organização de estudos
+
+## 🧪 O que pratiquei:
+- Execução de queries integrando JOIN com filtros e funções agregadas para análises do mundo real
+- Classificação de registros diretamente na consulta com CASE (ex: faixa de cliente, status de pedido)
+- Ordenação customizada para relatórios (alfabética, por data, com controle de NULLs)
+
+
