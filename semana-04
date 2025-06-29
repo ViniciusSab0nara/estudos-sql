@@ -16,4 +16,17 @@ semana-04/resumo.md
 - Classificação de registros diretamente na consulta com CASE (ex: faixa de cliente, status de pedido)
 - Ordenação customizada para relatórios (alfabética, por data, com controle de NULLs)
 
+Complementos e Diferenciais da Semana 04
+- Iniciei a construção de mini dashboards SQL, criando indicadores de negócio (ex: total de pedidos pagos, faturamento, clientes ativos, produtos mais vendidos).
 
+- Pratiquei subqueries (subconsultas), especialmente no SELECT, para cálculos personalizados linha a linha (ex: total gasto por cliente usando subquery correlacionada).
+
+- Aprimorei o raciocínio de escolha entre JOINs e subqueries, pensando em qual abordagem responde melhor cada pergunta de negócio.
+
+- Organizei scripts SQL e resumos no GitHub, focando em documentação e portfólio público.
+
+- Testei e revisei dados realistas, simulando cenários corporativos para BI e análises.
+
+- Fui além da execução: desenvolvi raciocínio analítico, planejando queries para painéis, cruzando tabelas e buscando insights nos resultados.
+
+- Preparei o terreno para temas mais avançados (CTE, funções de janela, análise temporal), reconhecendo pontos a revisar e evoluir na próxima etapa.
