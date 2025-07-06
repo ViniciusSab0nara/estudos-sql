@@ -36,10 +36,10 @@ SELECT
 FROM clientes_gasto
 ORDER BY total_gasto DESC;
 
+
+
+
 -- UNION: clientes com e sem pedido pago
-
-
-
 
 SELECT 
     c.nome,
@@ -61,3 +61,22 @@ WHERE c.id_cliente NOT IN (
     FROM pedidos p
     WHERE p.status = 'Pago'
 );
+
+
+# O que estudei hoje em SQL
+
+Hoje estudei os seguintes conceitos:
+
+- UNION: Aprendi que serve para combinar o resultado de duas consultas SQL, eliminando as linhas duplicadas.
+
+- UNION ALL: Similar ao UNION, mas mantém todas as linhas, incluindo duplicatas.
+
+- LAG: Estudei essa função janela que permite acessar o valor da linha anterior dentro de um grupo específico (partição), facilitando comparações com o registro atual.
+
+- LEAD: Função janela que permite acessar o valor da próxima linha dentro de uma partição, útil para comparações ou previsões futuras.
+
+Com esses comandos, consigo manipular e analisar dados sequenciais de forma mais eficiente e criar consultas avançadas que consideram o contexto de linhas anteriores ou posteriores.
+
+
+
+
