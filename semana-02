@@ -1,0 +1,18 @@
+semana-02/resumo.md
+# Resumo da Semana 02 – Funções Agregadas e Agrupamento
+
+## ✅ Tópicos estudados:
+- COUNT, SUM, AVG, MIN, MAX
+- GROUP BY
+- HAVING
+
+## 🧪 O que pratiquei:
+- Agrupar dados por cidade
+- Calcular média e soma de idades por grupo
+- Contar número de alunos por cidade
+- Filtrar agrupamentos com condições (HAVING)
+
+## 💡 Observações pessoais:
+- `GROUP BY` agrupa os registros antes de aplicar as agregações
+- `HAVING` funciona como um "WHERE para grupos"
+- Pratiquei bem a ordem das cláusulas: FROM → WHERE → GROUP BY → HAVING → ORDER BY → LIMIT

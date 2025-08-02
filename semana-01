@@ -1,0 +1,20 @@
+semana-01/resumo.md
+
+# Resumo da Semana 01 – Fundamentos de SQL
+
+## ✅ Tópicos estudados:
+- SELECT
+- WHERE
+- ORDER BY
+- LIMIT
+
+## 🧪 O que pratiquei:
+- Filtrar alunos por idade e cidade
+- Ordenar resultados de forma crescente e decrescente
+- Limitar os resultados exibidos (ex: TOP 3)
+- Trabalhar com nomes e colunas no SELECT de forma clara
+
+## 💡 Observações pessoais:
+- Aprendi que tudo o que vai no SELECT vira coluna no resultado
+- Descobri que `ORDER BY 2` usa a **segunda coluna listada** no SELECT
+- Usei `LIMIT` junto com `ORDER BY` pra simular rankings

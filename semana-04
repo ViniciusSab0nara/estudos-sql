@@ -1,0 +1,37 @@
+semana-04/resumo.md
+
+# Resumo da Semana 04 – JOINs Avançados, CASE e Organização de Bancos (SQL Realista)
+
+## ✅ Tópicos estudados:
+
+- **Prática e domínio dos principais tipos de JOIN:** INNER JOIN, LEFT JOIN, RIGHT JOIN e FULL JOIN (compreendendo quando e por que usar cada um)
+- Uso do LEFT JOIN para trazer dados nulos e identificar “órfãos” (clientes sem pedidos, pedidos sem clientes)
+- Aplicação de funções de agregação após JOIN (COUNT, SUM) para análises e relatórios
+- Implementação do CASE WHEN para classificação dinâmica de resultados (ex: clientes ativos/inativos)
+- Ordenação avançada com `ORDER BY` e manipulação de `NULLS FIRST/LAST`
+- Boas práticas para estruturação de scripts e organização de estudos
+
+## 🧪 O que pratiquei:
+- Execução de queries integrando JOIN com filtros e funções agregadas para análises do mundo real
+- Classificação de registros diretamente na consulta com CASE (ex: faixa de cliente, status de pedido)
+- Ordenação customizada para relatórios (alfabética, por data, com controle de NULLs)
+
+Complementos e Diferenciais da Semana 04
+- Iniciei a construção de mini dashboards SQL, criando indicadores de negócio (ex: total de pedidos pagos, faturamento, clientes ativos, produtos mais vendidos).
+
+- Pratiquei subqueries (subconsultas), especialmente no SELECT, para cálculos personalizados linha a linha (ex: total gasto por cliente usando subquery correlacionada).
+
+- Aprimorei o raciocínio de escolha entre JOINs e subqueries, pensando em qual abordagem responde melhor cada pergunta de negócio.
+
+- Organizei scripts SQL e resumos no GitHub, focando em documentação e portfólio público.
+
+- Testei e revisei dados realistas, simulando cenários corporativos para BI e análises.
+
+- Fui além da execução: desenvolvi raciocínio analítico, planejando queries para painéis, cruzando tabelas e buscando insights nos resultados.
+
+- Preparei o terreno para temas mais avançados (CTE, funções de janela, análise temporal), reconhecendo pontos a revisar e evoluir na próxima etapa.
+
+ Atualização de Estudos – Revisão de Fundamentos SQL
+- Realizei uma revisão focada nos principais comandos do SQL, reforçando a compreensão de SELECT, CASE WHEN e CTEs (WITH).
+- Pratiquei exemplos simples para consolidar a lógica e a sintaxe desses recursos, preparando o terreno para desafios mais avançados.
+- Reforcei a importância de dominar o básico para construir queries limpas, legíveis e eficientes em análises do dia a dia.
